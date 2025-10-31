@@ -76,14 +76,14 @@ legend{
     margin-left: 45%;
 }
 body{
-    background-image: url('WhatsApp\ Image\ 2025-10-26\ at\ 10.56.29.jpeg');
+    background-image: url('images/Login_background.jpeg');
     justify-content: center;
 }
 button{
     border-radius: 12px;
     display: block;
     margin-left: 45%;
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 180%;
     background-color: rgb(181, 230, 181);
 }
@@ -135,10 +135,17 @@ div{
 }
 
 #ending{
-    margin-top: 2rem;
-    margin-left: 11rem;
+    margin-top: 1rem;
+    margin-left: 12rem;
 }
 
+#rem{
+    margin-left: 1rem;
+}
+
+form a{
+    color: white;
+}
 
 
 /*Footer styles*/
@@ -184,4 +191,12 @@ h3{
     background-color: transparent;
     height: 14rem;
     width: 100%;
+}
+
+/*end footer*/
+.end-foot{
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    color: white;
 }

@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Navigation sec*/
+.nav-bar{
+    font-family: sans-serif;
+    height: 3.5rem;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid rgb(139, 138, 138);
+    background-color: rgb(221, 221, 221);
+}
+
+.search-bar{
+    display: flex;
+    position: relative;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    bottom: 13%;
+    left: -20%;
+}
+
+.search{
+    height: 1.5rem;
+    border-radius: 50px;
+    background-color: #e5e5e5;
+    border: 2px solid black;
+}
+
+
+i{
+
+    font-size: larger;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.account{
+    color: brown;
+    text-decoration-line: underline;
+}
+
+.account:hover{
+   scale: 1.2;
+   transition: scale 1s ease-in-out 0.2s;
+}
+
+.small-dropdown {
+  width: 15px; 
+  font-size: 16px; 
+}
+
+.settings:hover{
+    transform: rotateZ(90deg);
+    transition: transform 2s ease-in-out ;
+}
+
+
+
+
+
+#rem, legend, h5 {
+    color: white;
+}
+legend{
+    font-size: 150%;
+    margin-left: 45%;
+}
+body{
+    background-image: url('WhatsApp\ Image\ 2025-10-26\ at\ 10.56.29.jpeg');
+    justify-content: center;
+}
+button{
+    border-radius: 12px;
+    display: block;
+    margin-left: 45%;
+    margin-top: 2rem;
+    font-size: 180%;
+    background-color: rgb(181, 230, 181);
+}
+#usr ,#pass{
+    margin-top: 2.5rem;
+    display: block;
+    border-radius: 12px;
+    font-size: 150%;
+    width: 9rem;
+}
+label{
+    display: inline;
+}
+#check{
+    display: inline;
+}
+
+#usr{
+    margin-left: 25%;
+    width: 40vh;
+
+}
+
+#pass{
+    margin-left: 25%;
+    width: 40vh;
+    margin-bottom: 2vh;
+}
+form{
+    margin-left: 28rem;
+    display: flex;
+    border-radius: 50px;
+    margin-top: 15rem;
+    height: 20rem;
+    width: 40%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    display: block;
+    border: 8px solid black;
+}
+div{
+    display: inline;
+    position: relative;
+}
+
+#forg{
+    position: relative;
+    left: 45%;
+}
+
+#ending{
+    margin-top: 2rem;
+    margin-left: 11rem;
+}
+
+
+
+/*Footer styles*/
+.main-foot{
+    margin-top: 3rem;
+    background-color: rgb(139, 138, 138);
+    height: 16rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec1 ul a{
+    font-size: large;
+    color: rgb(71,61,67);
+    text-decoration: none;
+    list-style: none;
+}
+
+.sec2 ul a{
+    font-size: large;
+    color: rgb(71,61,67);
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.sec3 ul i{
+    font-size: 3rem;
+    color: rgb(71,61,67);
+    text-decoration: none;
+    list-style: none;
+}
+
+h3{
+    font-size: 2rem;
+    color: rgb(71,61,67);
+}
+
+.spacer{
+    display: block;
+    background-color: transparent;
+    height: 14rem;
+    width: 100%;
+}

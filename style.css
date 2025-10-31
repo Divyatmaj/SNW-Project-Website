@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    height: 3.5rem;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid rgb(139, 138, 138);
+    background-color: rgb(221, 221, 221);
+}
+
+.search-bar{
+    display: flex;
+    position: relative;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    bottom: 13%;
+    left: -20%;
+}
+
+.search{
+    height: 1.5rem;
+    border-radius: 50px;
+    background-color: #e5e5e5;
+    border: 2px solid black;
+}
+
+
+i{
+
+    font-size: larger;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.account{
+    color: brown;
+    text-decoration-line: underline;
+}
+
+.account:hover{
+   scale: 1.2;
+   transition: scale 1s ease-in-out 0.2s;
+}
+
+.small-dropdown {
+  width: 15px; 
+  font-size: 16px; 
+}
+
+.settings:hover{
+    transform: rotateZ(90deg);
+    transition: transform 2s ease-in-out ;
+}
+
+
+
+/*Img wala section*/
+.img{
+    height: 50rem;
+    width: 100%;
+    background-image: url(images/Brown\ Green\ Aesthetic\ Book\ Store\ Welcome\ Banner\ copy.png);
+    background-size: contain; 
+     background-repeat: no-repeat;
+}
+
+
+.sep{
+    font-size: 2rem;
+    font-family: 'Parisienne','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    height: 2.5rem;
+    background-color: white;
+    width: auto;
+}
+
+/*Footer styles*/
+.main-foot{
+    background-color: rgb(139, 138, 138);
+    height: 16rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec1 ul a{
+    font-size: large;
+    color: rgb(71,61,67);
+    text-decoration: none;
+    list-style: none;
+}
+
+.sec2 ul a{
+    font-size: large;
+    color: rgb(71,61,67);
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.sec3 ul i{
+    font-size: 3rem;
+    color: rgb(71,61,67);
+    text-decoration: none;
+    list-style: none;
+}
+
+h3{
+    font-size: 2rem;
+    color: rgb(71,61,67);
+}
+
+
+/*end footer*/
+.end-foot{
+    text-align: center;
+    background-color:black;
+    color: white;
+}
+
+
+
+
+
+/*css for the sliders*/
+body {
+  background-color: #e5e5e5;
+  font-family: sans-serif;
+}
+
+main {
+  width: 1200px; /* fixed width */
+  margin: auto;
+}
+
+.slider {
+  overflow: hidden;
+  position: relative;
+  height: 340px; /* fixed height */
+  margin: 20px 0;
+  mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
+}
+
+.slide-track {
+  display: flex;
+  width: max-content;
+   gap: 1rem;
+  animation: scroll 20s linear infinite;
+}
+
+.slider.reverse .slide-track {
+  animation: scroll-reverse 20s linear infinite;
+}
+
+.slide {
+  width: 200px; /* fixed slide width */
+  transition: filter 0.5s;
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+}
+
+/* Hover effects */
+.slider:hover .slide-track {
+  animation-play-state: paused;
+}
+
+.slider:hover .slide {
+  filter: grayscale(1);
+}
+
+.slider .slide:hover {
+  filter: grayscale(0);
+}
+
+/* Animations */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } 
+}
+
+@keyframes scroll-reverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}

@@ -67,21 +67,24 @@ nav a{
 
 /*Main code different boxes wala*/
 
-.box{
+.box {
     position: relative;
     border: 2px solid black;
     border-radius: 5px;
     height: 450px;
-    width: 18%;
+    width: 100%;
     background-color: white;
-    margin-top: 30px;
+    transition: transform 0.3s ease, border 0.3s ease;
 }
 
+
 .popular-section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: #e2e7e6;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+    padding: 30px;
+    justify-items: center;
+    box-sizing: border-box;
 }
 
 .box-img{
@@ -133,19 +136,22 @@ nav a{
 }
 
 
-.end-btn{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 0.5rem 0.5rem ;
-    width: 4rem;
-    height: 1rem;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    margin-top: 1rem;
-    margin-left: 4%;
-    border-radius: 6px;
-    margin-bottom: 2rem;
+.end-btn {
+grid-column: 1/-1;
+text-align: center;
+background-color: black;
+color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border-radius: 6px;
+padding: 10px 20px;
+cursor: pointer;
+margin-top: 1rem;
+margin-bottom: 2rem;
+width: fit-content;
+justify-self: center; 
 }
+
+
 .effect3:hover{
     transform: scale(1.4,1.4);
     transition: transform 1s ease-in-out;

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-bar{
+    font-family: sans-serif;
+    height: 3.5rem;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid rgb(139, 138, 138);
+    background-color: rgb(221, 221, 221);
+}
+
+.search-bar{
+    display: flex;
+    position: relative;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    bottom: 13%;
+    left: -20%;
+}
+
+.search{
+    height: 1.5rem;
+    border-radius: 50px;
+    background-color: #e5e5e5;
+    border: 2px solid black;
+}
+
+
+i{
+
+    font-size: larger;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.account{
+    color: brown;
+    text-decoration-line: underline;
+}
+
+.account:hover{
+   scale: 1.2;
+   transition: scale 1s ease-in-out 0.2s;
+}
+
+.small-dropdown {
+  width: 15px; 
+  font-size: 16px; 
+}
+
+.settings:hover{
+    transform: rotateZ(90deg);
+    transition: transform 2s ease-in-out ;
+}

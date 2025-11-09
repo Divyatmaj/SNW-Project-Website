@@ -1,43 +1,95 @@
-# SNW-Project-Website
-Repository made for submission of SNW Project.
-A straightforward static website made as part of the SNW Project submission can be found in this repository. The website is constructed using images, CSS, and plain HTML. The project's goal, the structure of the website, and a brief description of each page are all explained in this README so that anyone accessing the repository can quickly comprehend and update each page.
+# 📚 Quil & Byte Book Library — SNW Project Website
 
-##Table of contents
--Overview of the project
--How to operate locally
--Structure of files and folders
--Styles and assets
+A **straightforward static website** made as part of the **SNW Project submission**.
+The website is built using **HTML**, **CSS**, and **images** — no frameworks or build tools.
 
+This README provides:
 
-##Project Overview<
-A tiny static website is called Quil & Byte Book Library. For structure and styling, it solely makes use of HTML and CSS. The pages are made to show off layout, responsive behavior (for popular,review and favorite), and basic user interface elements like search bar,navigation, and content card/grid layouts.
+* The project’s goal and overview
+* Instructions for running it locally
+* File and folder structure
+* Details about styles and assets
 
-##How to run locally
-1.Clone the repository:
-        git clone https://github.com/Divyatmaj/SNW-Project-Website.git
-        cd SNW-Project-Website
+---
 
-2.Open index.html in a browser (double click or use Live Server extension in VS Code).
-  No build step is required — this is a purely static site.
+## 🧭 Table of Contents
 
+* [Overview](#-project-overview)
+* [How to Run Locally](#-how-to-run-locally)
+* [File & Folder Structure](#-file--folder-structure)
+* [Styles and Assets](#-styles-and-assets)
 
+---
 
-##File / folder structure
+## 📖 Project Overview
 
-  SNW-Project-Website/
-├─ images/ (image assets used by pages)
-├─ index.html ( Home / Landing page)
-├─ popular.html ( Popular / Featured page)
-├─ login.html (Login page)
-├─ signin.html (Sign in / Signup page)
-├─ style.css  (Global styles)
-├─ popular.css (Styles specific to popular.html)
-├─ login.css (Styles specific to login.html)
-└─ README.md (This document)
+**Quil & Byte Book Library** is a small, static website designed for the SNW project.
+It uses **only HTML and CSS** for structure and styling.
 
+The goal of this project is to demonstrate:
 
+* Page layout and structure
+* Responsive design (for *Popular*, *Review*, and *Favorite* sections)
+* Basic UI components such as:
 
-##styles and assets
--style.css — global style rules: typography, colors, layout helpers.
--popular.css, login.css — page-specific overrides; rename or merge to style.css if you prefer a single stylesheet.
--images/ — keep images with meaningful filenames and include alt text in the markup.
+  * Navigation bar
+  * Search bar
+  * Content cards and grid layouts
+
+---
+
+## 💻 How to Run Locally
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/Divyatmaj/SNW-Project-Website.git
+   cd SNW-Project-Website
+   ```
+
+2. **Open the project**
+
+   * Simply open `index.html` in any browser
+     *or*
+   * Use the **Live Server** extension in VS Code for a better development experience
+
+> ⚡ No build step is required — it’s a purely static site.
+
+---
+
+## 📂 File & Folder Structure
+
+```
+SNW-Project-Website/
+├── images/           # Image assets used across pages
+├── index.html        # Home / Landing page
+├── popular.html      # Popular / Featured books page
+├── login.html        # Login page
+├── signin.html       # Sign in / Signup page
+├── style.css         # Global styles
+├── popular.css       # Styles specific to popular.html
+├── login.css         # Styles specific to login.html
+└── README.md         # This document
+```
+
+---
+
+## 🎨 Styles and Assets
+
+* **style.css** — global styles (typography, colors, layout, etc.)
+* **popular.css**, **login.css** — page-specific overrides
+
+  * You can merge these into `style.css` if you prefer a single stylesheet.
+* **images/** — store all images here
+
+  * Use **meaningful filenames**
+  * Always include **alt text** for accessibility
+
+---
+
+✨ *Created with simplicity and clarity for the SNW Project.*
+
+---
+
+Would you like me to make it look a bit more **aesthetic and branded** (with a color header banner, emoji section titles, and contribution/license section) — or keep it **strictly professional** like this?
+
